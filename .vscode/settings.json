@@ -1,0 +1,23 @@
+{
+  "idf.customExtraVars": {
+    "PYTHONUTF8": "1",
+    "IDF_PATH": "H:\\tools\\esp\\master\\esp-idf",
+    "IDF_TOOLS_PATH": "C:\\Espressif"
+  },
+  "idf.currentSetup": "H:\\tools\\esp\\master\\esp-idf",
+  "idf.portWin": "COM31",
+  "idf.openOcdConfigs": [
+    "board/esp32s31-lpcore-builtin.cfg"
+  ],
+  "idf.flashType": "UART",
+  "clangd.path": "C:\\Espressif\\tools\\esp-clangd\\esp-21.1.3_20260408\\esp-clangd\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=C:/Espressif/tools/riscv32-esp-elf/**/bin/riscv32-esp-elf-*.exe",
+    "--compile-commands-dir=H:/iu_yang1/study/ESP32S31/build",
+    "--header-insertion=never"
+  ],
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "C_Cpp.errorSquiggles": "disabled",
+  "git.ignoreLimitWarning": true
+}

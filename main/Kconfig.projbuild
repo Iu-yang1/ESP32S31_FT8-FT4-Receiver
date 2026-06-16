@@ -1,0 +1,23 @@
+menu "FT8/FT4 Receiver"
+
+    config FTX_NTP_SERVER
+        string "NTP server"
+        default "ntp1.neu.edu.cn"
+
+    config FTX_CALLSIGN
+        string "Receiver callsign"
+        default ""
+
+    config FTX_GRID
+        string "Receiver Maidenhead grid"
+        default ""
+
+    config FTX_DIAL_FREQUENCY_HZ
+        int "Receiver dial frequency in Hz"
+        default 14074000
+
+    config FTX_PSK_REPORTER_ENABLE
+        bool "Enable PSK Reporter upload"
+        default n
+
+endmenu

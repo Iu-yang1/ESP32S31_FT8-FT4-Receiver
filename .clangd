@@ -1,0 +1,6 @@
+CompileFlags:
+    CompilationDatabase: build
+    Remove: [-fmacro-prefix-map=*, -fstrict-volatile-bitfields, -fno-jump-tables, -fno-tree-switch-conversion, -fzero-init-padding-bits=*, -fno-shrink-wrap, -fno-malloc-dce, -mtune=*, -specs=*]
+    Add: [-Wno-unknown-warning-option, -isystemC:/Espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/picolibc/include, -isystemC:/Espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/lib/gcc/riscv32-esp-elf/15.2.0/include]
+Diagnostics:
+    UnusedIncludes: None
